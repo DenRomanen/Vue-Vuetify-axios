@@ -1,0 +1,50 @@
+[
+  {
+    "telephone": "+70000000001",
+    "success": true,
+    "balances": {
+      "programname1": 100,
+      "programname2": 120
+    }
+  },
+  {
+    "telephone": "+70000000002",
+    "success": true,
+    "balances": {
+      "programname1": 130,
+      "programname2": 140
+    }
+  },
+  {
+    "telephone": "80000000003",
+    "success": true,
+    "balances": {
+      "programname1": 150,
+      "programname2": 160
+    }
+  },
+  {
+    "telephone": "80000000004",
+    "success": true,
+    "balances": {
+      "programname1": 170,
+      "programname2": 180
+    }
+  },
+  {
+    "telephone": "0000000005",
+    "success": true,
+    "balances": {
+      "programname1": 190,
+      "programname2": 200
+    }
+  },
+  {
+    "telephone": "0000000006",
+    "success": true,
+    "balances": {
+      "programname1": 210,
+      "programname2": 220
+    }
+  }
+]

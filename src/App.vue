@@ -1,28 +1,36 @@
 <template>
-  <div id="app">
-    <img alt="Vue logo" src="./assets/logo.png">
-    <HelloWorld msg="Welcome to Your Vue.js App"/>
-  </div>
+  <v-app>
+    <v-content>
+      <div id="body">
+        <titleOfLink />
+        <sendFormPhone />
+      </div>
+    </v-content>
+  </v-app>
 </template>
 
 <script>
-import HelloWorld from './components/HelloWorld.vue'
+import titleOfLink from "./components/title";
+import sendFormPhone from "./components/form";
 
 export default {
-  name: 'app',
+  name: "App",
   components: {
-    HelloWorld
-  }
-}
+    titleOfLink,
+    sendFormPhone
+  },
+  data: () => ({})
+};
 </script>
+ <style scoped>
+@import url("./vendor/normalize.css");
+@import url("./vendor/stylesheet.css");
 
-<style>
-#app {
-  font-family: 'Avenir', Helvetica, Arial, sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  text-align: center;
-  color: #2c3e50;
-  margin-top: 60px;
+#body {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  font-family: "Geometria";
 }
 </style>
