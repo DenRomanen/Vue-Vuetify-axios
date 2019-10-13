@@ -1,29 +1,7 @@
-# my-project
+Баллы на карте
 
-## Project setup
-```
-npm install
-```
+Проверка количества бонусных баллов на карте покупателя
 
-### Compiles and hot-reloads for development
-```
-npm run serve
-```
+Версия проекта: v.0.1
 
-### Compiles and minifies for production
-```
-npm run build
-```
-
-### Run your tests
-```
-npm run test
-```
-
-### Lints and fixes files
-```
-npm run lint
-```
-
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
+Технологии: VUE, VUEtify, axios, HTML, CSS, JS, GIT.
